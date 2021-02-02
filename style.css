@@ -1,0 +1,102 @@
+.navBarList{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.navPtOne{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.navPtTwo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: -21px;
+    padding-right: 10px;
+    align-items: baseline;
+
+}
+
+.navBarItem1, .navBarItem2{
+    padding: 5px 0px 0px 10px;
+    font-size: 12px;
+}
+
+.navBarList li a {
+    text-decoration: none;
+    color: inherit;
+    font-family: arial,sans-serif;
+}
+
+.logoDiv{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 140px;
+}
+
+.searchDiv{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding-top: 30px;
+  position: relative;
+}
+
+.magnifying {
+    height: 22px;
+    width: 200px;
+    position: absolute;
+    color:  #dfe1e5;
+    margin-right: 250px;
+}
+
+.searchWord{
+    border-radius: 20px;
+    height: 40px;
+    width: 470px;
+    background-color: transparent;
+    border: 1px solid #dfe1e5;
+}
+
+.buttonDiv{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.searchButton, .searchButtonLucky{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    
+}
+
+.searchButton:hover, .searchButtonLucky:hover{
+    border-color: rgb(184, 184, 184);
+}
+
+.loginButton{
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background-color:  #4285f4;
+    color: white;
+    height: 28px;
+    font-family: arial,sans-serif;
+    
+}
+
